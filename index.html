@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 2</title>
+    <style>
+        body{ 
+                background-color: rgb(81, 165, 81);
+                color: rgb(248, 244, 244);
+            }
+        form{
+            justify-content: center;
+            width: 500px;
+            length: 70px;
+            position: absolute;
+            left: 500px;
+            right: 500px;
+            
+        }
+        fieldset{
+            background-color: rgb(39, 36, 36);
+        }    
+        input,textarea,select{
+            background-color: black;
+            color: white;
+        }
+        .box{
+            box-sizing:border-box;
+        
+        }
+        button{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Skill++ Survey Form</h1>
+    <h3 align="center"><i>Thank you for taking the time to help us improve the platform</i></h3>
+    <form>
+        <fieldset>
+        <div>
+            <p>
+          <label>What is your name?</label>
+         </p>
+       </div>
+        <div>
+            <p>
+             <input type="text" placeholder="Enter your name"> </input>
+            </p>
+        </div>
+        <div>
+            <p>
+             <label>What is your email address?</labe>
+                <p>
+        <div>
+            <p>
+              <input type="email" placeholder="Enter your email address"> </input>
+            </p>
+        </div>
+        <div>
+            <p>
+              <label>What is your age?</label>
+            </p>
+        </div>
+        <div>
+            <p>
+              <input type="numeric" placeholder="Enter your age"> </input>
+            </p>
+        </div>
+        <div>
+            <p>
+            <label>Which option best describes your current role?</label>
+            </p>
+        </div>
+        <div>
+            <p>
+            <label>
+                <select>
+                        <option>Student</option>
+                        <option>Full Time Job</option>
+                        <option>Part Time Job</option>
+                        <option>Freelancer</option>
+                        <option>Unemployed</option>
+                </select>
+            </label>
+            </p>
+        </div>
+        <div>
+            <p>
+            <label>Would you recommend <b>Hyperlink InfoSystem</b> to a friend?</label>
+            </p>
+        </div>
+        <div>
+            <p>
+            <input type="radio">Definitely</input><br>
+            <input type="radio">Maybe</input><br>
+            <input type="radio">Not sure</input>
+            </p>
+        </div>
+        <div>
+            <p>
+            <label>What would you like to see improved?
+                <br>(Check all that apply)          
+            </label>
+            </p>
+        </div>
+        <div>
+            <p>
+              <input type="checkbox">Front-end projects</input><br>
+              <input type="checkbox">Back-end projects</input><br>
+              <input type="checkbox">Challenges</input><br>
+            </p>
+        </div>
+        <div>
+            <p>
+              <label>Any comments or suggestions?</label>
+            </p>
+        </div>
+        <div>
+            <p>
+            <textarea rows="5" cols="50" placeholder="Enter Your Comments here...."></textarea>
+            </p>
+        </div>
+        <div>
+            <p>
+            <button type="submit">Submit</button>
+            </p>
+        </div>
+    </fieldset>
+    </form>
+</body> 
+</html>
